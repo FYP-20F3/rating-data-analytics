@@ -1,0 +1,47 @@
+# Ignore Python virtual environment directories and files
+Include/
+Lib/
+Library/
+Scripts/
+share/
+pyvenv.cfg
+
+# Ignore the machine-models directory
+src/machine-models/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variable and secret files
+.env
+.venv
+
+# Ignore additional directories specific to your project
+*.zip  # If you don't want to include zip files in the repository
+*.tar.gz  # If you don't want to include tar.gz files in the repository
+
+# Ignore other common build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
